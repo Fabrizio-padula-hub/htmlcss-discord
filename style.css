@@ -31,12 +31,10 @@ footer{
 .rectangle-1{
     min-width: 60%;
     margin: 0 auto;
-    border: 3px dashed black;
 }
 .rectangle-2{
     min-width: 40%;
     margin: 0 auto;
-    border: 3px dashed black;
 }
 .btn{
     font-size: 20px;
@@ -169,33 +167,16 @@ footer h2{
 .widget{
     max-width: 1180px;
     margin: 0 auto;
-    padding: 20px 0px; 
+    padding: 50px 0px; 
 }
 .rectangle-container {
     display: flex;
-}
-.rectangle {
-    min-height: 600px;
-    border: 2px dashed black;
 }
 .rectangle-main {
     width: 40%;
 }
 .rectangle-small {
     width: calc(60% / 4);
-    border: 2px dashed #ffffff;
-}
-.divider {
-    height: 1px;
-    background-color: white; 
-}
-.widget .container-link{
-    background-color: #7fffd4;
-}
-.container-link.footer div{ 
-    padding: 2px 5px;
-    background-color: #ffb6c1;
-    border: 2px dashed black;
 }
 .bandiera{
     width: 20px;
@@ -214,4 +195,7 @@ footer h2{
     color: #ffffff;
     padding: 7px 0px;
     list-style: none;
+}
+.footer a{
+    font-size: 11px;
 }
