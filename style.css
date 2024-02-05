@@ -34,9 +34,24 @@
     margin: 0 auto;
     border: 3px dashed black;
 }
+
+.btn{
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
 /*--------------------
     TYPOGRAPHY
 --------------------*/  
+h1, h2, h3{
+    font-size: 56px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
 header{
     color: #ffffff;
 }
@@ -44,7 +59,8 @@ header{
     BACKGROUND
 --------------------*/
 .bg-gen{
-    min-height: 400px;
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
     padding: 45px 0px;
 }
 
@@ -61,7 +77,7 @@ header{
 --------------------*/
 header{
     min-height: 60px;
-    background-color: #3161e0;
+    background-color: #3261E0;
     padding: 20px 0px;
 }
 .container-link{
