@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
 }        
 /*--------------------
     GENERAL
@@ -80,6 +81,13 @@ header{
 }
 .container-link > :last-child{
     text-align: end;
+}
+.list-header{
+    display: flex;
+}
+.list-header li{
+    padding: 0px 20px;
+    list-style: none;
 }
 /*--------------------
     MAIN
