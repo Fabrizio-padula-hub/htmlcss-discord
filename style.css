@@ -139,7 +139,9 @@ header{
 .titolo:nth-child(3){
     color: #23272a;
 }
-
+.bg-gen.lightgrey.center{
+    text-align: center;
+}
 /*--------------------
     FOOTER
 --------------------*/
