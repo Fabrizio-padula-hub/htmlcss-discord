@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }  
 
 /*--------------------
@@ -16,7 +16,8 @@
     min-height: 400px;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    flex-wrap: nowrap;
     padding: 50px 0px;
 }
 .rectangle-1{
@@ -26,8 +27,6 @@
 }
 .rectangle-2{
     min-width: 40%;
-    min-height: 400px;
-    background-color: #ffc0cb;
     margin: 0 auto;
     border: 3px dashed black;
 }
@@ -47,13 +46,19 @@
 /*--------------------
     TYPOGRAPHY
 --------------------*/  
-h1, h2, h3{
+h1{
     font-size: 56px;
     padding-bottom: 30px;
-    font-weight: bold;
+    font-weight: 700;
+}
+h2{
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 30px;
+
 }
 p{
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 30px;
 }
 header{
@@ -120,18 +125,19 @@ header{
     text-align: center;
     padding: 40px 0px;
     margin-bottom: 35px;
+    color: #ffffff;
 }
 .green{
     background-color: #228b22;
     max-width: 1180px;
     min-height: 800px;
 }
-.titolo h1,p{
-    color: #ffffff;
-}
 .btn.black{
     background-color: #23272a;
     color: #ffffff;
+}
+.titolo:nth-child(3){
+    color: #23272a;
 }
 
 /*--------------------
