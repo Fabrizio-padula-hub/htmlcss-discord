@@ -29,6 +29,7 @@ footer{
     padding: 50px 0px;
 }
 .rectangle-1{
+    max-width: 1180px;
     min-width: 60%;
     margin: 0 auto;
 }
@@ -48,7 +49,10 @@ footer{
     cursor: pointer;
     text-decoration: none;
 }
-
+ .img{
+    width: 100%;
+    height: auto;
+ }
 /*--------------------
     TYPOGRAPHY
 --------------------*/  
@@ -65,11 +69,6 @@ h2{
 }
 h3{
     font-size: 30px;
-    background-image: url(./img/stars.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 40%;
     margin-bottom: 30px;
 }
 h4{
@@ -84,6 +83,9 @@ header{
 }
 footer h2{
     color: #7289da;
+}
+.footer a{
+    font-size: 11px;
 }
 
 /*--------------------
@@ -143,10 +145,6 @@ footer h2{
     margin-bottom: 35px;
     color: #ffffff;
 }
-.green{
-    max-width: 1180px;
-    min-height: 800px;
-}
 .btn.black{
     background-color: #23272a;
     color: #ffffff;
@@ -168,15 +166,16 @@ footer h2{
     max-width: 1180px;
     margin: 0 auto;
     padding: 50px 0px; 
+    border-bottom: 1px solid #fff;
 }
 .rectangle-container {
     display: flex;
 }
 .rectangle-main {
-    width: 40%;
+    width: 30%;
 }
 .rectangle-small {
-    width: calc(60% / 4);
+    width: calc(70% / 4);
 }
 .bandiera{
     width: 20px;
@@ -195,7 +194,4 @@ footer h2{
     color: #ffffff;
     padding: 7px 0px;
     list-style: none;
-}
-.footer a{
-    font-size: 11px;
 }
