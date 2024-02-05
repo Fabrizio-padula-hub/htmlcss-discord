@@ -11,6 +11,14 @@
 /*--------------------
     GENERAL
 --------------------*/  
+header{
+    min-height: 60px;
+    background-color: #265EE8;
+    padding: 20px 0px;
+}
+footer{
+    background-color: #23272a;
+}
 .wrapper{
     max-width: 1180px;
     min-height: 400px;
@@ -64,6 +72,10 @@ h3{
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 40%;
+    margin-bottom: 30px;
+}
+h4{
+    color: #7289da
 }
 p{
     font-size: 18px;
@@ -71,6 +83,9 @@ p{
 }
 header{
     color: #ffffff;
+}
+footer h2{
+    color: #7289da;
 }
 
 /*--------------------
@@ -92,11 +107,6 @@ header{
 /*--------------------
     HEADER
 --------------------*/
-header{
-    min-height: 60px;
-    background-color: #265EE8;
-    padding: 20px 0px;
-}
 .container-link{
     display: flex;
     justify-content: space-between;
@@ -149,17 +159,17 @@ header{
 .bg-gen.lightgrey.center{
     text-align: center;
 }
+.btn.white.fine{
+    background-color: #8ea1e1;
+    color: #ffffff;
+}
 /*--------------------
     FOOTER
 --------------------*/
-footer{
-    background-color: #23272a;
-}
 .widget{
     max-width: 1180px;
     margin: 0 auto;
     padding: 20px 0px; 
-    /* border-bottom: 1px solid; */
 }
 .rectangle-container {
     display: flex;
@@ -170,11 +180,9 @@ footer{
 }
 .rectangle-main {
     width: 40%;
-    background-color: salmon;
 }
 .rectangle-small {
     width: calc(60% / 4);
-    background-color: #20b2aa;
     border: 2px dashed #ffffff;
 }
 .divider {
@@ -188,4 +196,22 @@ footer{
     padding: 2px 5px;
     background-color: #ffb6c1;
     border: 2px dashed black;
+}
+.bandiera{
+    width: 20px;
+}
+#lingua{
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.social i{
+    color: #fff;
+    padding: 10px;
+}
+.rectangle-small li{
+    color: #ffffff;
+    padding: 7px 0px;
+    list-style: none;
 }
